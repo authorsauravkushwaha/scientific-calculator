@@ -1,0 +1,19 @@
+# This project has NO third-party dependencies.
+#
+# It uses only the Python standard library:
+#   - tkinter  (GUI)
+#   - math     (scientific functions)
+#   - ast      (safe expression parsing)
+#   - operator, dataclasses, time, typing
+#
+# Requirements: Python 3.8+
+#
+# On some minimal Linux installs, tkinter is packaged separately from
+# Python itself. If `python scientific_calculator.py` fails with
+# "ModuleNotFoundError: No module named 'tkinter'", install it with:
+#
+#   Debian / Ubuntu:   sudo apt install python3-tk
+#   Fedora:            sudo dnf install python3-tkinter
+#   Arch:              sudo pacman -S tk
+#
+# Nothing to `pip install`.
